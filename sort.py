@@ -5,9 +5,11 @@ python3.codes/popular-sorting-algorithms
 from copy import deepcopy
 from heapq import merge
 import random
+import cProfile
 
 random_seq = range(5000)
 random.shuffle(random_seq)
+
 
 def bubble_sort(seq):
     d_seq = deepcopy(seq)
